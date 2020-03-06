@@ -1,6 +1,4 @@
-#coding:utf-8
-n = int(input())
-i = 2
+n, i = int(input()), 2
 while i <= n ** (1/2):
     if n % i == 0:
         print('not sosu')
