@@ -1,0 +1,1 @@
+print('not sosu') if 0 in [(i + 1 + num) % num for i, num in enumerate(reversed(range(2, int(input()))))] else print('sosu')
